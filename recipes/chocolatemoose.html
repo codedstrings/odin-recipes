@@ -3,23 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chocolate-moose</title>
+    <title>Chocolate Moose</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 70%; /* Set the width to 70% for the image */
+        }
+
+        blockquote {
+            font-style: italic;
+            margin: 20px;
+            padding: 10px;
+            border-left: 5px solid #df8c27;
+            background-color: #f9f9f9;
+        }
+
+        .recipe {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .ingredients, .Directions {
+            text-align: left; /* Align text to the left for ingredient and direction sections */
+        }
+
+        h3 {
+            color: #2c3e50;
+        }
+
+        ul, ol {
+            padding-left: 20px; /* Add some padding for lists */
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            display: inline-block; /* Allow padding and hover effect */
+            margin-top: 20px;
+        }
+
+        a:hover {
+            background-color: #df8c27;
+            color: white;
+        }
+
+        button {
+            background-color: #df8c27;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #df8c27;
+        }
+
+        @media (max-width: 600px) {
+            img {
+                width: 80%; /* Adjust image width for smaller screens */
+            }
+        }
+    </style>
 </head>
 <body>
     <h1>Chocolate Moose</h1>
     <p><em>-Animals are to be harmed.</em></p>
-    <img src="../img/chocolate-moose.jpg" alt="chocolate covered moose" width="70%">
-   
+    <img src="../img/chocolate-moose.jpg" alt="chocolate covered moose">
+
     <h2>Description</h2>
-    <p><blockquote>"This is for VERY special occasions only - it takes a lot of effort, but the presentation is spectacular!"</blockquote>
-        <em>-recipe author</em></p>
+    <p>
+        <blockquote>"This is for VERY special occasions only - it takes a lot of effort, but the presentation is spectacular!"</blockquote>
+        <em>-recipe author</em>
+    </p>
 
     <div class="recipe">
         <div class="ingredients">
             <h3>Ingredients</h3>
             <ul>
                 <li>1 moose</li>
-                <li>40lbs hershey chocolate</li>
+                <li>40lbs Hershey chocolate</li>
                 <li>17 containers Cool Whip</li>
                 <li>few cherries</li>
             </ul>
@@ -28,18 +117,20 @@
             <h3>Directions</h3>
             <ol>
                 <li>Send spouse to Alaska to capture moose, or have one delivered by UPS.</li>
-                <li>Meanwhile, melt chocolate in very large double boiler.</li>
+                <li>Meanwhile, melt chocolate in a very large double boiler.</li>
                 <li>Keep warm.</li>
                 <li>Tie up moose with rope.</li>
                 <li>Holding the moose by the tail, carefully dip in melted chocolate, covering it completely with a thin coating.</li>
-                <li>Arrange moose attractively on large platter and refrigerate for 2 days to set chocolate.</li>
-                <li>Remove rope, wash to remove chocolate,if necessary, and return rope to clothesline.</li>
+                <li>Arrange moose attractively on a large platter and refrigerate for 2 days to set chocolate.</li>
+                <li>Remove rope, wash to remove chocolate if necessary, and return rope to clothesline.</li>
                 <li>Garnish chocolate moose with Cool Whip and top with a cherry.</li>
                 <li>Serve immediately. Or you could just chew on the rope, which may be tastier.</li>
                 <li>May be doubled for serving a crowd.</li>
             </ol>
         </div>
-
     </div>
+    <a href="../index.html">
+        <button type="button">Go to Homepage</button>
+    </a>
 </body>
 </html>
